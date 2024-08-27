@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentar campos para prencimento</title>
+    <link rel="stylesheet" href="../css/ex13.css">
+</head>
+<body>
+    Nota: os campos marcados com asterisco são obrigatório. <br><br>
+    <form action="">
+        *Nome Completo: <input type="text" name="nome" value="" size="30" maxlength="30"
+        onblur="campo_obrigatorio(this)"><br>
+        Idade: <input type="text" name="idade" value="" size="5" maxlength="5"><br>
+        *Cidade: <input type="text" name="cidade" value="" size="20" maxlength="20"
+        onblur="campo_obrigatorio(this)"><br>
+        Telefone: <input type="text" name="telefone" value="" size="15"
+        maxlength="15"><br>
+    </form>
+    <script src="/javascript.01/js/ex13.js"></script>
+    
+</body>
+</html>
